@@ -1,0 +1,17 @@
+#divboucle {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+h4 {
+    border: solid 3px black;
+    background-color: burlywood;
+    color: blue;
+    width: 45%;
+    margin: 1%;
+    padding: 1%;
+
+}
