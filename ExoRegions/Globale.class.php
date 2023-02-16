@@ -18,7 +18,6 @@
         }
     // Fonction public récupération des données
         public function envoi(){
-            // $this->requete();
             $envoi = $this->connexion()->query("SELECT * FROM regions "); 
             return $recEnvoi = $envoi->fetchAll(PDO::FETCH_ASSOC);
             
@@ -27,4 +26,3 @@
     }
     ?>
 
-    <!-- where nameRegion =$Regions -->

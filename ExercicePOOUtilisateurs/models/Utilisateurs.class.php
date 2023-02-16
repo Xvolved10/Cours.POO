@@ -1,5 +1,5 @@
 <?php
-
+// Création class Utilisateurs
     class Utilisateurs {
         private $id = 0;
         private $email = null;
@@ -8,7 +8,7 @@
         private $id_citie = 0;
         private $id_Roles = 0;
         private $Avatar = null;
-
+// Constantes connexion BDD
         const HOST = "localhost";
         const DB_NAME = "blogville";
         const LOGIN = "root";
@@ -56,7 +56,7 @@
         public function setAvatar($Avatar) {
             return $this->Avatar = $Avatar; //écriture de l'attribut Avatar
         }
-    
+    // Requête connexion BDD
     private function requete() {
         $db = new PDO("mysql:host=" . self::HOST .";dbname=" . self::DB_NAME, self::LOGIN ,self::PASSWORD);
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

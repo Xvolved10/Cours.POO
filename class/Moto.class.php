@@ -1,6 +1,7 @@
 <?php
+// Création class Moto enfant de Véhicule
 class Moto extends Vehicule {
-    private $cylindree; //attrivut particulier à la classe moto
+    private $cylindree; //attribut particulier à la classe moto
     public function getCylindree(){
         return $this->cylindree;
     }

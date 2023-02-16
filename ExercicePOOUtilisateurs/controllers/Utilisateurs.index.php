@@ -2,7 +2,7 @@
 include("../models/Utilisateurs.class.php");
 
 // var_dump($rectab);
-
+// boucle affichage Utilisateurs
 function boucle(){
     $utilisateur1 = new Utilisateurs();
 $rectab = $utilisateur1->envoi();

@@ -53,6 +53,7 @@ class Vehicule{
 
 
 <?php
+//Création class Vehicule
 class Vehicule
 {
     //déclaration des attributs
